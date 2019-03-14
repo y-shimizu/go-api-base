@@ -1,0 +1,7 @@
+[logger]
+app_log_path    = "/tmp/go-ap-base.app.log"
+access_log_path = "/tmp/go-api-base.access.log"
+
+[server]
+port = 8080
+allow_origin = "*"
