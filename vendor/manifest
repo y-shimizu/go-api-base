@@ -9,8 +9,8 @@
 			"branch": "master"
 		},
 		{
-			"importpath": "github.com/y-shimizu/dbr",
-			"repository": "https://github.com/y-shimizu/dbr",
+			"importpath": "github.com/gocraft/dbr",
+			"repository": "https://github.com/gocraft/dbr",
 			"vcs": "",
 			"revision": "042fe86dc2daa9684f746ab337971e84147e8856",
 			"branch": "master"
