@@ -13,8 +13,6 @@ restore:
 	go get -u github.com/jteeuwen/go-bindata/...
 	go get -u github.com/FiloSottile/gvt
 	gvt restore
-	rm -rf vendor/github.com/gocraft/dbr
-	mv vendor/github.com/y-shimizu/dbr vendor/github.com/gocraft/dbr
 
 fmt:
 	gofmt -w {application,domain,infrastructure,util}

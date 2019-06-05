@@ -86,7 +86,7 @@ func confConfDevToml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "conf/conf.dev.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1552580426, 0)}
+	info := bindataFileInfo{name: "conf/conf.dev.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1555480771, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -106,7 +106,7 @@ func confConfLocalToml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "conf/conf.local.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1552580426, 0)}
+	info := bindataFileInfo{name: "conf/conf.local.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1555480771, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -126,7 +126,7 @@ func confConfProdToml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "conf/conf.prod.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1552580426, 0)}
+	info := bindataFileInfo{name: "conf/conf.prod.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1555480771, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -146,7 +146,7 @@ func confConfStgToml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "conf/conf.stg.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1552580426, 0)}
+	info := bindataFileInfo{name: "conf/conf.stg.toml", size: 142, mode: os.FileMode(420), modTime: time.Unix(1555480771, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }

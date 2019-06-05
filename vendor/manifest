@@ -2,6 +2,14 @@
 	"version": 0,
 	"dependencies": [
 		{
+			"importpath": "github.com/jinzhu/gorm",
+			"repository": "https://github.com/jinzhu/gorm",
+			"vcs": "",
+			"revision": "b7156195f7f3415f97c20abbd6aff894b847fee8",
+			"branch": "master"
+		},
+
+		{
 			"importpath": "github.com/BurntSushi/toml",
 			"repository": "https://github.com/BurntSushi/toml",
 			"vcs": "",

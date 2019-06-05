@@ -5,8 +5,10 @@ import (
 )
 
 type User struct {
-	UserID int64 `db:"user_id"`
-	Name string `db:"name"`
+	ID       int64  `db:"id"`
+	Password string `db:"password"`
+	Name     string `db:"name"`
+	Email    string `db:"email"`
 }
 
 type UserDao struct {
@@ -21,7 +23,6 @@ func NewUserDao() UserDao {
 		table: "user",
 	}
 }
-
 
 func (this UserDao) FindById(userId int64) (*User, error) {
 	sess := this.conn.NewSession(nil)

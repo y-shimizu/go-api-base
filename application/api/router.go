@@ -13,7 +13,6 @@ func Main() {
 	router := gin.New()
 
 	router.Use(AccessLogger())
-	//router.Use(AccessLogger())
 	if util.Env.IsLocal() {
 		router.Use(gin.Logger(), Recovery())
 	}
